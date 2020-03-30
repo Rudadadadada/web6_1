@@ -23,7 +23,7 @@ def lonlat_distance(a, b):
     return distance
 
 
-toponym_to_find = 'Москва, ул. Ак. Королева, 12'
+toponym_to_find = " ".join(sys.argv[1:])
 
 geocoder_api_server = "http://geocode-maps.yandex.ru/1.x/"
 
